@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Freecodecamp certification survey form</p>
+        </header>
+
+        <div>
+            <form id="survey-form">
+                <label id="name-label"
+                    >Name
+                    <input
+                        id="name"
+                        type="text"
+                        placeholder="Enter your Name"
+                        required
+                /></label>
+
+                <label id="email-label"
+                    >Email
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="Enter your Email"
+                        required
+                /></label>
+
+                <label id="number-label"
+                    >Number
+                    <input
+                        id="number"
+                        type="number"
+                        min="13"
+                        max="120"
+                        placeholder="Enter your Number"
+                    />
+                </label>
+
+                <label>
+                    Are u cute?
+                    <select id="dropdown">
+                        <option>Select one</option>
+                        <option>Yes, I am</option>
+                        <option>No, I'm not</option>
+                    </select>
+                </label>
+
+                <label
+                    >Are you a programmer?
+                    <label
+                        ><input
+                            class="inline"
+                            value="yes"
+                            type="radio"
+                            name="choice"
+                        />Yes</label
+                    >
+                    <label>
+                        <input
+                            class="inline"
+                            value="no"
+                            type="radio"
+                            name="choice"
+                        />
+                        No
+                    </label>
+                </label>
+
+                <label>
+                    Do you look cute?
+                    <label
+                        ><input
+                            class="inline"
+                            value="1"
+                            type="checkbox"
+                        />Yeah</label
+                    >
+                    <label>
+                        <input class="inline" value="2" type="checkbox" />I
+                        guess?</label
+                    >
+                    <label>
+                        <input class="inline" value="3" type="checkbox" />No
+                        :(</label
+                    >
+                    <label>
+                        <input class="inline" value="4" type="checkbox" />I DONT
+                        KNOW OKAY?!?!</label
+                    >
+                </label>
+
+                <label>
+                    Tell me what u wanna say :)
+                    <textarea> </textarea>
+                </label>
+
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>
